@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\BitMap">
+      <UniqueIdentifier>{d3655f53-2f23-48d6-ba8d-b0a385ce11eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics">
+      <UniqueIdentifier>{52cf25c9-41cd-4e28-81c0-73d5882c43d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics\FakeShaders">
+      <UniqueIdentifier>{f191da0d-a3ec-4440-a223-6be60e1e1754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics\FromVStoPS">
+      <UniqueIdentifier>{209d53c2-c6fc-4042-858d-b2d47712e1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{0b2d48da-0203-41af-be71-091623d23f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphics\Objects">
+      <UniqueIdentifier>{8d6fb33d-b22e-422d-84ad-e71551644888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities\Memory">
+      <UniqueIdentifier>{ff7c8d01-e539-42bc-a8ea-9677fa76f131}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\VertexBuffer.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\IndexBuffer.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FakeShaders\VertexShader.cpp">
+      <Filter>源文件\Graphics\FakeShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FakeShaders\PixelShader.cpp">
+      <Filter>源文件\Graphics\FakeShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FromVStoPS\FrameBuffer.cpp">
+      <Filter>源文件\Graphics\FromVStoPS</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplexNoise.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\WinTiming.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Profiling.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Mesh.cpp">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Material.cpp">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphic.cpp">
+      <Filter>源文件\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\Texture.cpp">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\FromVStoPS\PriAsm.cpp">
+      <Filter>源文件\Graphics\FromVStoPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Memory\MemoryManager.cpp">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Memory\MemoryPool.cpp">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Memory\BitArray.cpp">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Memory\Extension.cpp">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Objects\ResourceManager.cpp">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitMap\BitMap.h">
+      <Filter>源文件\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\VertexBuffer.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IndexBuffer.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FakeShaders\VertexShader.h">
+      <Filter>源文件\Graphics\FakeShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FakeShaders\PixelShader.h">
+      <Filter>源文件\Graphics\FakeShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FromVStoPS\FrameBuffer.h">
+      <Filter>源文件\Graphics\FromVStoPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CommonStructs.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplexNoise.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\WinTiming.h">
+      <Filter>源文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Profiling.h">
+      <Filter>源文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Material.h">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Mesh.h">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphic.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\SRDef.h">
+      <Filter>源文件\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\Texture.h">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\FromVStoPS\PriAsm.h">
+      <Filter>源文件\Graphics\FromVStoPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\MemoryManager.h">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\MemoryPool.h">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\BitArray.h">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\Extension.h">
+      <Filter>源文件\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Objects\ResourceManager.h">
+      <Filter>源文件\Graphics\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

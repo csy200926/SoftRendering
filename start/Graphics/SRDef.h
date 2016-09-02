@@ -1,0 +1,9 @@
+#pragma once
+
+
+#define SCREENHEIGHT  600
+#define SCREENWIDTH   800
+
+#define SCREENHEIGHT_INDEX  599
+#define SCREENWIDTH_INDEX   799
+

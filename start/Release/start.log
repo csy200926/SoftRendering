@@ -1,0 +1,146 @@
+﻿Build started 5/8/2016 10:16:51 PM.
+     1>Project "D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\start\start.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /IIncludes\GLFW /IIncludes\GL /IIncludes\glm /IIncludes\vectorial /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Graphics\Camera.cpp Graphics\FakeShaders\PixelShader.cpp Graphics\FakeShaders\VertexShader.cpp Graphics\FromVStoPS\FrameBuffer.cpp Graphics\FromVStoPS\PriAsm.cpp Graphics\Graphic.cpp Graphics\IndexBuffer.cpp Graphics\Objects\Material.cpp Graphics\Objects\Mesh.cpp Graphics\Objects\ResourceManager.cpp Graphics\Objects\Texture.cpp Graphics\VertexBuffer.cpp main.cpp SimplexNoise.cpp Utilities\Memory\BitArray.cpp Utilities\Memory\Extension.cpp Utilities\Memory\MemoryManager.cpp Utilities\Memory\MemoryPool.cpp Utilities\Profiling.cpp Utilities\WinTiming.cpp
+         Camera.cpp
+     1>Graphics\Camera.cpp(50): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Graphics\Camera.cpp(51): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Graphics\Camera.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Graphics\Camera.cpp(53): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         PixelShader.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fakeshaders\../Objects/Texture.h(14): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fakeshaders\../Objects/Texture.h(15): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         VertexShader.cpp
+         FrameBuffer.cpp
+         PriAsm.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\PriAsm.h(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\PriAsm.h(132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\PriAsm.h(133): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\PriAsm.h(141): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\PriAsm.h(143): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\fromvstops\../../Utilities.h(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(338): warning C4018: '<' : signed/unsigned mismatch
+     1>Graphics\FromVStoPS\PriAsm.cpp(523): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(525): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(560): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(562): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(590): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(621): warning C4244: 'argument' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>Graphics\FromVStoPS\PriAsm.cpp(649): warning C4101: 'w' : unreferenced local variable
+         Graphic.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\FromVStoPS/PriAsm.h(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\FromVStoPS/PriAsm.h(132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\FromVStoPS/PriAsm.h(133): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\FromVStoPS/PriAsm.h(141): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\FromVStoPS/PriAsm.h(143): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\Objects\Texture.h(14): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\Objects\Texture.h(15): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\Graphic.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+         IndexBuffer.cpp
+         Material.cpp
+         Mesh.cpp
+     1>Graphics\Objects\Mesh.cpp(44): warning C4244: '=' : conversion from 'float' to 'int16_t', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(45): warning C4244: '=' : conversion from 'float' to 'int16_t', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(46): warning C4244: '=' : conversion from 'float' to 'int16_t', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(47): warning C4244: '=' : conversion from 'float' to 'int16_t', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(82): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(83): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(84): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\Objects\Mesh.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>Graphics\Objects\Mesh.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>Graphics\Objects\Mesh.cpp(168): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(194): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(199): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(205): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(212): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(219): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\Mesh.cpp(287): warning C4018: '<' : signed/unsigned mismatch
+         ResourceManager.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\objects\Texture.h(14): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\objects\Texture.h(15): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Graphics\Objects\ResourceManager.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>Graphics\Objects\ResourceManager.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>Graphics\Objects\ResourceManager.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>Graphics\Objects\ResourceManager.cpp(103): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\ResourceManager.cpp(110): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>Graphics\Objects\ResourceManager.cpp(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         Texture.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\objects\Texture.h(14): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\graphics\objects\Texture.h(15): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         VertexBuffer.cpp
+     1>Graphics\VertexBuffer.cpp(10): warning C4316: 'SYSR::VSInput' : object allocated on the heap may not be aligned 16
+         main.cpp
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/FromVStoPS/PriAsm.h(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/FromVStoPS/PriAsm.h(132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/FromVStoPS/PriAsm.h(133): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/FromVStoPS/PriAsm.h(141): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/FromVStoPS/PriAsm.h(143): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/Objects/Texture.h(14): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\softrendererallversions\softrendering-neontest-simd - multithreading\start\Graphics/Objects/Texture.h(15): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(345): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(385): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         SimplexNoise.cpp
+         BitArray.cpp
+         Extension.cpp
+         MemoryManager.cpp
+         MemoryPool.cpp
+         Profiling.cpp
+         WinTiming.cpp
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\Release\start.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:Libs opengl32.lib glu32.lib glfw3.lib yeppp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\Release\start.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\Release\start.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\PixelShader.obj
+         Release\VertexShader.obj
+         Release\FrameBuffer.obj
+         Release\PriAsm.obj
+         Release\Graphic.obj
+         Release\IndexBuffer.obj
+         Release\Material.obj
+         Release\Mesh.obj
+         Release\ResourceManager.obj
+         Release\Texture.obj
+         Release\VertexBuffer.obj
+         Release\main.obj
+         Release\SimplexNoise.obj
+         Release\BitArray.obj
+         Release\Extension.obj
+         Release\MemoryManager.obj
+         Release\MemoryPool.obj
+         Release\Profiling.obj
+         Release\WinTiming.obj
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewUnmapBuffer
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewActiveTexture
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glewInit@0
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewMapBuffer
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+     1>main.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+     1>main.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+     1>D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\Release\start.exe : fatal error LNK1120: 19 unresolved externals
+     1>Done Building Project "D:\Dropbox\SoftRendererAllVersions\SoftRendering-NeonTest-SIMD - MultiThreading\start\start.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.73
